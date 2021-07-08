@@ -1,0 +1,23 @@
+name: TAKAntiCheat
+version: ${project.version}
+main: net.theakingdom.takanticheat.TAKAntiCheat
+api-version: 1.17
+authors: [ Ecolipsy, ItzScythe, TheAKingdom ]
+description: AntiCheat for TheAKingdom.
+website: https://theakingdom.net
+commands:
+  ldtp:
+    aliases: lastdetectiontp
+    description: Teleports you to the latest detected cheater.
+  #ban:
+  #  aliases: takban
+  #  description: Bans a person LOL
+  #kick:
+  #  aliases: takkick
+  #  description: Kicks a person LOL
+  #unban:
+  #  aliases: takunban, pardon, takpardon
+  #  description: unbans a person LOL
+  silentjoin:
+    aliases: sj
+    description: Toggles whether you will have a join message or not.
